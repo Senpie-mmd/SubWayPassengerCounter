@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: arial;
+}
+
+.main {
+    position:relative;
+    top:0;
+    width:100%;
+    height: 100vh;
+}
+
+.background-image {
+    z-index: -10;
+    object-fit: cover;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    height:100%;
+}
+
+.topic {
+    margin: 30px;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.total-passenger-count {
+    font-size: 60px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    background-color: lightgray;
+    width:80px;
+    border-radius: 50%;
+    padding: 4px 0 4px 0;
+    margin: 0 auto 30px auto;
+    opacity: 0.8;
+}
+
+.increase-btn,
+.decrease-btn,
+.addto-total {
+    font-size: 60px;
+    margin: 0 auto 20px auto;
+    width: 250px;
+    font-weight: bold;
+    background-color: gray;
+    opacity: 0.9;
+    border: none;
+    padding: 10px 0 10px 0;
+    transition: 0.2s;
+    display: block;
+    width:70%;
+}
+
+.addto-total {
+    margin: 0 auto 50px auto;
+}
+
+.increase-btn:hover,
+.decrease-btn:hover,
+.addto-total:hover {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+
+.total-entry {
+    font-weight: bold;
+    font-size: 50px;
+    margin:0 auto 0 auto;
+    width: 35vw;
+    text-align: left;
+    background-color: lightgray;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+    opacity: 0.8;
+    max-height: 87.6px;
+}
